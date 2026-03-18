@@ -15,7 +15,10 @@ Pusat dokumentasi ini menyimpan seluruh cetak biru, standar kualitas, dan pandua
 ### 2. Cetak Biru (Blueprints)
 - **[Repository Plan](./repository-plan/README.md)**: Dekomposisi total dari dokumentasi resmi ke dalam arsitektur 9-Rack.
 
-### 3. Narasi & Esensi
+### 3. Spesialisasi (Specializations)
+- **[RAK-10: Enterprise Design Patterns](../RAK-10-ENTERPRISE-DESIGN-PATTERNS/README.md)**: Pola desain skala besar dengan kekuatan Type System.
+
+### 4. Narasi & Esensi
 - **[TypeScript Origins](./typescript-origins.md)**: Narasi mendalam tentang alasan Microsoft menciptakan TypeScript.
 - **[TypeScript History](./typescript-history.md)**: Jejak langkah evolusi fitur per versi.
 - **[TypeScript Philosophy](./typescript-philosophy.md)**: Membedah dasar-dasar pemikiran di balik desain bahasa.
