@@ -1,66 +1,42 @@
-# [Judul Buku]
+# Dokumentasi & Standar: TypeScript Knowledge Base
 
-Buku ini merupakan bagian dari **TypeScript Knowledge Base** yang membahas topik:
+Selamat datang di pusat kontrol dokumentasi **TypeScript Knowledge Base**. Folder ini berisi panduan, standar, dan peta jalan (roadmap) untuk pengerjaan seluruh Rak di perpustakaan ini.
 
-> [Deskripsi singkat buku]
+## 🧭 Navigasi Dokumen
 
-Buku ini bertujuan untuk membantu memahami konsep-konsep penting dalam area ini secara terstruktur dan bertahap.
+### 1. [Rencana Repositori (Unified Plan)](./repository-plan.md)
+Berisi detail dekomposisi untuk setiap Rak (Level 2) hingga ke level Bab (Level 5).
 
----
+### 2. Intisari & Filosofi
+- **[Filosofi TypeScript](./typescript-philosophy.md)**: Esensi "The Transformer" 🤖.
+- **[Sejarah & Evolusi TypeScript](./typescript-history.md)**: Perjalanan dari 2012 hingga sekarang.
+- **[Mengapa TypeScript? (Why & When)](./why-typescript.md)**: Panduan rasional penggunaan TS.
 
-# Tujuan Buku
-
-Tujuan utama buku ini adalah:
-
-* menjelaskan konsep inti dari topik ini
-* memberikan pemahaman yang jelas tentang bagaimana fitur tersebut bekerja
-* menunjukkan contoh penggunaan dalam praktik pengembangan TypeScript
-
----
-
-# Cakupan Materi
-
-Buku ini mencakup topik-topik berikut:
-
-* Topik 1
-* Topik 2
-* Topik 3
-* Topik 4
-* Topik 5
+### 3. Panduan Struktur & Standar
+Untuk menjaga kualitas "Gold Standard", pastikan Anda mengikuti panduan berikut:
+- **[Arsitektur & Hierarki](./standards/architecture.md)**: Analogi Perpustakaan dan kewajiban setiap level.
+- **[Konvensi Penamaan](./standards/conventions.md)**: Aturan folderisasi (RAK-, SR-, BK-, CH-).
+- **[Prosedur Penulisan (PPM)](./standards/workflow.md)**: Tahapan Narasi -> Kode -> Visualisasi.
+- **[Protokol Status](./standards/status-protocol.md)**: Bagaimana progress "bubbling up" ke level atas.
 
 ---
 
-# Prasyarat
+## 📊 Status Pengembangan Global
 
-Disarankan sudah memahami:
-
-* dasar-dasar JavaScript
-* dasar TypeScript
-* konsep dasar pemrograman
-
----
-
-# Struktur Bab
-
-Bab-bab dalam buku ini:
-
-1. Bab 1
-2. Bab 2
-3. Bab 3
-4. Bab 4
+| Rak | Judul | Progress | Keterangan |
+| :--- | :--- | :--- | :--- |
+| **RAK-01** | Foundations | 0% | Inisialisasi narasi awal. |
+| **RAK-02** | Core Language | 0% | Planned. |
+| **RAK-03** | Practical Usage | 0% | Planned. |
+| **RAK-04** | Engineering | 0% | Planned. |
+| **RAK-05** | Companion | 0% | Planned. |
 
 ---
 
-# Hubungan dengan Buku Lain
-
-Topik ini berkaitan dengan:
-
-* TypeScript Type System
-* TypeScript Generics
-* TypeScript Patterns & Anti-Patterns
+## 🛠 Aturan Kontribusi (Personal)
+- Setiap Bab **wajib** memiliki `README.md` (PPM Stage 1).
+- Setiap Buku **wajib** memiliki `docs/status.md` untuk sinkronisasi progress ke dokumen ini.
+- Diagram dan visualisasi sangat disarankan menggunakan Mermaid atau SVG untuk performa render yang ringan.
 
 ---
-
-# Catatan
-
-Materi dalam buku ini dapat diperbarui seiring perkembangan TypeScript.
+*Kembali ke [Halaman Utama](../README.md)*

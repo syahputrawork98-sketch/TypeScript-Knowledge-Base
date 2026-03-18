@@ -1,0 +1,45 @@
+# Arsitektur & Hierarki Struktur (TS Edition)
+
+Proyek **TypeScript Knowledge Base** disusun dengan analogi **Perpustakaan Digital** untuk mentransformasi dokumentasi teknis (seperti TS Handbook & Reference) menjadi unit pelajaran yang manusiawi.
+
+## Analogi Struktur
+
+Berikut adalah pemetaannya ke dalam direktori bertingkat:
+
+| Tingkatan | Analogi | Contoh Direktori | Keterangan |
+| :--- | :--- | :--- | :--- |
+| **Level 1** | **Perpustakaan** | `/` (root) | Seluruh sistem proyek (TS Engine). |
+| **Level 2** | **Rak (Shelf)** | `RAK-01-foundations/` | Pengelompokan besar domain ilmu. |
+| **Level 3** | **Sub-Rak (Sub-shelf)** | `SR-01_Intro/` | Grup materi berbasis area spesifik. |
+| **Level 4** | **Buku (Book)** | `BK-01_TypeScriptTutorial/` | Koleksi bab yang membentuk satu topik besar. |
+| **Level 5** | **Bab (Chapter)** | `CH-01_Overview/` | Unit terkecil wajib (Folder Bab). |
+
+---
+
+## Aturan Pewajiban `README.md`
+
+Guna memudahkan navigasi, setiap tingkatan direktori **WAJIB** memiliki file `README.md`:
+
+- **Root (`/README.md`)**: Visi keseluruhan (The Transformer 🤖).
+- **Rak (`RAK-XX/README.md`)**: Tujuan dan cakupan Rak tersebut.
+- **Buku (`BK-XX/README.md`)**: Sinopsis dan orientasi filosofis materi.
+- **Bab (`CH-XX/README.md`)**: Materi inti (PPM Stage 1).
+
+---
+
+## Kriteria "Gold Standard" (100% Complete)
+
+Sebuah unit dianggap **Completed** jika memenuhi 4 pilar kualitas:
+
+> [!IMPORTANT]
+> **Pilar 1: Spec-Sync Accurate**  
+> Konten diverifikasi terhadap dokumentasi resmi/Handbook (Target di kolom Spec-Sync).
+>
+> **Pilar 2: Functional Examples**  
+> Minimal 1 contoh kode (`.ts`) di folder `examples/` yang membuktikan konsep.
+>
+> **Pilar 3: Mental Model Visual**  
+> Minimal 1 diagram (Mermaid/SVG) di folder `assets/`.
+>
+> **Pilar 4: Narrative Excellence**  
+> Penjelasan menggunakan standar PPM V4: Manusiawi, ada analogi, dan menggunakan **Bahasa Arsitek (Senior Terminology)**. Dokumentasi harus berfungsi sebagai jembatan yang memungkinkan pengembang awam berkomunikasi secara profesional dengan pengembang senior setelah mempelajari materi.

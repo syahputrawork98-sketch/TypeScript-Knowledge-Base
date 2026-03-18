@@ -1,281 +1,83 @@
 # TypeScript Knowledge Base
 
-Repositori ini adalah **basis pengetahuan terstruktur tentang TypeScript** yang disusun seperti **perpustakaan teknis**.
+> **"Membangun Fondasi yang Kokoh di Atas Dinamisme JavaScript."**
 
-Tujuan utama dari repository ini adalah untuk membangun kumpulan penjelasan yang terorganisasi dengan baik mengenai TypeScript, mulai dari konsep dasar hingga topik lanjutan, termasuk sistem tipe, prinsip desain, pola penggunaan, konfigurasi compiler, serta ekosistem yang mengelilinginya.
+## Latar Belakang & Visi
+Seringkali saat kita menulis JavaScript, kita merasa seperti sedang berjalan di kegelapan tanpa senter. Bug muncul tiba-tiba saat runtime, dan kita baru menyadarinya setelah aplikasi "meledak" di tangan pengguna.
 
-Repository ini tidak dimaksudkan sebagai pengganti dokumentasi resmi TypeScript, tetapi sebagai **versi kurasi pribadi** yang disusun agar lebih mudah dipahami, dipelajari, dan dirujuk kembali.
+**TypeScript Knowledge Base** adalah manifestasi dari perjalanan saya menaklukkan dinamisme tersebut. Saya mendekomposisi documentation TypeScript yang luas menjadi unit-unit kecil yang manusiawi menggunakan analogi **Perpustakaan Digital**. Di sini, kita tidak hanya belajar sintaks, tapi memahami *bagaimana* dan *kenapa* sistem tipe itu ada.
 
-Struktur repository ini dibagi menjadi beberapa **"buku" utama**, di mana setiap buku membahas satu area penting dari TypeScript.
+## Tujuan (Objectives)
+1. **Portofolio**: Menunjukkan kedalaman teknis dalam memahami sistem tipe struktural.
+2. **Catatan Belajar Personal**: Dokumentasi perjalanan dari pengembang JS menjadi TS Architect.
+3. **Shareable Resource**: Referensi terpercaya bagi rekan pengembang untuk memahami konsep sulit (seperti Generic atau Conditional Types).
+4. **Living Documentation**: Selalu diperbarui mengikuti rilis terbaru dari tim TypeScript.
 
-Ke depannya, repository ini juga dirancang sebagai **sumber utama konten** yang dapat digunakan untuk membangun **website dokumentasi pribadi tentang TypeScript**.
+## Mengenal TypeScript: "The Transformer" 🤖
 
----
+Sebelum masuk ke teknis, kita perlu memahami **apa** TypeScript itu sebenarnya. TypeScript bukanlah bahasa baru yang berdiri sendiri, melainkan **Superset** dari JavaScript yang bertindak sebagai **Transformer**.
 
-# Struktur Perpustakaan
+### 🎭 Analogi: "Sinar X & Kerangka Robot"
+Bayangkan JavaScript adalah sebuah gumpalan tanah liat (dinamis, bebas dibentuk, tapi rapuh). Anda bisa membuat apapun, tapi sulit memastikan kekuatannya.
 
-Repository ini disusun seperti **rak buku teknis**, di mana setiap direktori utama merepresentasikan sebuah buku.
+**TypeScript** memberikan Anda **Sinar X** dan **Kerangka Robot**. 
+- **Sinar X**: Memungkinkan Anda melihat "ke dalam" kode Anda (tipe data) sebelum kode itu dijalankan.
+- **Kerangka Robot**: Memberikan struktur yang kaku dan kuat pada tanah liat tadi. Jika Anda mencoba memasang tangan robot ke kaki, sang *Compiler* akan segera berteriak sebelum robot itu mencoba berjalan.
 
-## Foundations
+TypeScript mentransformasi JavaScript yang "menebak-nebak" menjadi sistem yang "tahu pasti".
 
-### 01. TypeScript Tutorial
+### 🚀 Mengapa Menggunakan TypeScript?
 
-Pengantar TypeScript yang dirancang untuk memahami dasar-dasar penggunaan TypeScript.
-
-Topik utama:
-
-* Mengapa menggunakan TypeScript
-* Instalasi TypeScript
-* Type annotations dasar
-* Typing variables
-* Typing functions
-* Typing objects
-* Union types
-* Literal types
-* Narrowing dasar
-* Generic dasar
-* Contoh proyek sederhana
+1.  **Dukungan IDE yang Luar Biasa**: *Autocompletion* dan *Refactoring* menjadi sangat akurat karena IDE tahu persis bentuk data Anda.
+2.  **Mencegah Bug di Masa Depan**: Menangkap kesalahan bodoh (seperti `undefined is not a function`) saat Anda baru saja mengetiknya.
+3.  **Dokumentasi yang Hidup**: Tipe data adalah dokumentasi terbaik. Anda tidak perlu menebak apa isi sebuah objek; tipe datanya memberitahu Anda.
+4.  **Skalabilitas**: Di proyek besar, TypeScript adalah satu-satunya cara untuk memastikan perubahan di satu sisi tidak merusak sepuluh sisi lainnya secara diam-diam.
 
 ---
 
-### 02. TypeScript First Principles
+## Struktur Perpustakaan (5-Rack Architecture)
+Repositori ini menggunakan standar **PPM (Perpustakaan Pribadi Modular)** dengan hierarki:
+**Rak -> Sub-Rak -> Buku -> Bab -> Section.**
 
-Membahas **prinsip dasar dan filosofi desain TypeScript**.
-
-Topik utama:
-
-* Static typing vs dynamic typing
-* Compile-time vs runtime
-* Structural typing
-* Type compatibility
-* Type assignability
-* Type inference
-* Control flow analysis
-* Narrowing concept
-* Soundness vs practicality
-* Filosofi desain TypeScript
-
----
-
-# Core Language
-
-### 03. TypeScript Type System
-
-Penjelasan lengkap mengenai **komponen sistem tipe dalam TypeScript**.
-
-Topik utama:
-
-* Primitive types
-* Object types
-* Arrays
-* Tuples
-* Union types
-* Intersection types
-* Literal types
-* Enum
-* Interface
-* Type alias
-* Optional properties
-* Readonly properties
-* Index signatures
+```mermaid
+graph TD
+    Root["TypeScript Knowledge Base"]
+    
+    RAK01["RAK-01-foundations<br/>(The Gateway)"]
+    RAK02["RAK-02-core-language<br/>(The Heart)"]
+    RAK03["RAK-03-practical-usage<br/>(The Field)"]
+    RAK04["RAK-04-engineering<br/>(The Brain)"]
+    RAK05["RAK-05-companion<br/>(The Allies)"]
+    
+    Root --> RAK01
+    Root --> RAK02
+    Root --> RAK03
+    Root --> RAK04
+    Root --> RAK05
+    
+    style Root fill:#3178C6,stroke:#333,stroke-width:4px,color:#fff
+    style RAK01 fill:#bbf,stroke:#333
+    style RAK02 fill:#bbf,stroke:#333
+    style RAK03 fill:#bfb,stroke:#333
+    style RAK04 fill:#bfb,stroke:#333
+    style RAK05 fill:#fbb,stroke:#333
+```
 
 ---
 
-### 04. TypeScript Generics
+## Roadmap & Status Pengembangan (Draft Plan)
 
-Membahas konsep **generic programming dalam TypeScript**.
+| Rak | Deskripsi | Status |
+| :--- | :--- | :--- |
+| `RAK-01-foundations/` | Intro, Syntax, Tutorial, & First Principles | *Planned* |
+| `RAK-02-core-language/` | Type System, Generics, & Advanced Types | *Planned* |
+| `RAK-03-practical-usage/` | App Modeling, Runtime Boundaries, & Patterns | *Planned* |
+| `RAK-04-engineering/` | Compiler (tsc), Project Arch, & Testing | *Planned* |
+| `RAK-05-companion/` | Ecosystem & Release Notes | *Planned* |
 
-Topik utama:
-
-* Generic functions
-* Generic interfaces
-* Generic classes
-* Generic constraints
-* Default generics
-* Generic inference
-* Reusable generic patterns
-
----
-
-### 05. TypeScript Advanced Types
-
-Topik lanjutan dalam sistem tipe TypeScript.
-
-Topik utama:
-
-* Mapped types
-* Conditional types
-* Utility types
-* keyof
-* Indexed access types
-* Template literal types
-* infer keyword
-* Recursive types
+## Visi Aktif
+Repositori ini bertindak sebagai **"The Brain"** dalam *Master Plan: Polyglot Senior Architect*. Fokus materi murni pada **TypeScript Language & Ecosystem**.
 
 ---
-
-# Practical Usage
-
-### 06. TypeScript for Application Modeling
-
-Bagaimana menggunakan TypeScript untuk **memodelkan data dan struktur aplikasi nyata**.
-
-Topik utama:
-
-* Modeling API responses
-* Discriminated unions
-* State modeling
-* Form state
-* Error modeling
-* Optional data modeling
-* Pagination models
-* Async state patterns
-
----
-
-### 07. TypeScript Runtime Boundaries
-
-Menjelaskan **batas kemampuan TypeScript**, terutama perbedaan antara compile-time dan runtime.
-
-Topik utama:
-
-* TypeScript tidak ada saat runtime
-* Runtime validation
-* Unsafe type assertions
-* Handling external data
-* JSON parsing
-* API data validation
-* Bridging runtime values and static types
-
----
-
-### 08. TypeScript Patterns & Anti-Patterns
-
-Kumpulan pola desain yang baik serta praktik yang perlu dihindari saat menggunakan TypeScript.
-
-Contoh patterns:
-
-* Discriminated union state machines
-* Type-safe API wrappers
-* Exhaustive switch checking
-* Safe optional access
-* Reusable utility types
-
-Contoh anti-patterns:
-
-* Overusing `any`
-* Abusing type assertions
-* Over-engineering generics
-* Complex unreadable type logic
-
----
-
-# Engineering
-
-### 09. TypeScript Compiler & Configuration
-
-Penjelasan tentang **TypeScript compiler dan konfigurasi proyek**.
-
-Topik utama:
-
-* TypeScript compiler (`tsc`)
-* tsconfig.json
-* Strict mode
-* Target configuration
-* lib configuration
-* Module resolution
-* Declaration files
-* Project references
-* Incremental compilation
-
----
-
-### 10. TypeScript Modules & Project Architecture
-
-Struktur proyek TypeScript dan manajemen modul.
-
-Topik utama:
-
-* ES Modules
-* CommonJS
-* Module resolution
-* Path mapping
-* Project structure
-* Monorepo TypeScript
-* Type sharing antar modul
-* Struktur library TypeScript
-
----
-
-### 11. TypeScript Testing & Tooling
-
-Tools yang digunakan untuk mengembangkan proyek TypeScript secara efektif.
-
-Topik utama:
-
-* Testing TypeScript
-* Type testing
-* tsd
-* Jest dengan TypeScript
-* ts-node
-* ESLint dengan TypeScript
-* Prettier
-* IDE tooling
-
----
-
-# Companion
-
-### 12. TypeScript Ecosystem Companion
-
-Gambaran ekosistem yang mendukung TypeScript.
-
-Topik utama:
-
-* TypeScript language service
-* DefinitelyTyped
-* ts-node
-* tsx
-* Bundlers dengan TypeScript
-* Framework yang mendukung TypeScript
-* Linting tools
-* Build tools
-
----
-
-### 13. TypeScript Release Notes Companion
-
-Dokumentasi perubahan dan evolusi TypeScript.
-
-Topik utama:
-
-* Ringkasan fitur per versi
-* Perubahan penting
-* Breaking changes
-* Contoh penggunaan fitur baru
-
-Contoh struktur:
-
-* TypeScript 5.0
-* TypeScript 5.1
-* TypeScript 5.2
-* TypeScript 5.3
-* TypeScript 5.4
-* TypeScript 5.x dan seterusnya
-
----
-
-# Tujuan Repository
-
-Repository ini bertujuan untuk:
-
-* Menyediakan penjelasan TypeScript yang **terstruktur dan mudah dipahami**
-* Menjadi **referensi pribadi jangka panjang**
-* Menyusun pengetahuan TypeScript seperti **perpustakaan teknis**
-* Menjadi **sumber utama konten untuk website dokumentasi TypeScript pribadi**
-
----
-
-# Catatan
-
-TypeScript terus berkembang, sehingga repository ini akan terus diperbarui untuk mencerminkan perubahan dan fitur terbaru dari bahasa tersebut.
+*Dokumentasi Lengkap & Roadmap: [docs/README.md](./docs/README.md)*
+*Panduan Struktur & Standar: [docs/standards/architecture.md](./docs/standards/architecture.md)*
