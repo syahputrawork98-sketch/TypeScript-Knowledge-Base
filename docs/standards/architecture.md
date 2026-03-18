@@ -27,6 +27,17 @@ Guna memudahkan navigasi, setiap tingkatan direktori **WAJIB** memiliki file `RE
 
 ---
 
+## Karakteristik & Autentisitas (Branding)
+
+Untuk menjaga "nyawa" dan keunikan bahasa TypeScript, setiap konten wajib mengikuti pedoman berikut:
+
+- **Analogi Utama**: **Katedral Tipe (The Cathedral of Types)**.
+- **Tone Suara**: **Terstruktur, Arsitektural, dan Presisi**. TS adalah tentang membangun fondasi yang kokoh untuk sistem besar.
+- **Filosofi Penulisan**: Fokus pada *Scalability* dan *Type Safety*. Jelaskan bagaimana TS membantu tim besar bekerja sama tanpa rasa takut akan error runtime.
+- **Visual**: Gunakan estetika "TS Blue" dan diagram yang menunjukkan struktur hierarkis dan aliran data yang aman.
+
+---
+
 ## Kriteria "Gold Standard" (100% Complete)
 
 Sebuah unit dianggap **Completed** jika memenuhi 4 pilar kualitas:

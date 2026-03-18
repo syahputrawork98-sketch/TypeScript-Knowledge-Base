@@ -1,6 +1,6 @@
 # Dokumentasi & Standar: TypeScript Knowledge Base
 
-Pusat dokumentasi ini menyimpan seluruh cetak biru, standar kualitas, dan panduan meta untuk membangun repository ini secara konsisten.
+Pusat dokumentasi ini menyimpan seluruh cetak biru, standar kualitas, dan panduan meta untuk membangun repository ini secara konsisten mengikuti standar *TS Handbook* dan *Reference*.
 
 ## Daftar Dokumen Utama
 
