@@ -4,7 +4,7 @@ Selamat datang di pusat kontrol dokumentasi **TypeScript Knowledge Base**. Folde
 
 ## 🧭 Navigasi Dokumen
 
-### 1. [Rencana Repositori (Unified Plan)](./repository-plan.md)
+### 1. [Rencana Repositori (Unified Plan)](./repository-plan/README.md)
 Berisi detail dekomposisi untuk setiap Rak (Level 2) hingga ke level Bab (Level 5).
 
 ### 2. Intisari & Filosofi
@@ -25,11 +25,14 @@ Untuk menjaga kualitas "Gold Standard", pastikan Anda mengikuti panduan berikut:
 
 | Rak | Judul | Progress | Keterangan |
 | :--- | :--- | :--- | :--- |
-| **RAK-01** | Foundations | 0% | Inisialisasi narasi awal. |
-| **RAK-02** | Core Language | 0% | Planned. |
-| **RAK-03** | Practical Usage | 0% | Planned. |
-| **RAK-04** | Engineering | 0% | Planned. |
-| **RAK-05** | Companion | 0% | Planned. |
+| **RAK-01** | Get Started | 0% | Inisialisasi narasi awal. |
+| **RAK-02** | The Handbook | 0% | Planned. |
+| **RAK-03** | Reference | 0% | Planned. |
+| **RAK-04** | Modules | 0% | Planned. |
+| **RAK-05** | Declaration Files | 0% | Planned. |
+| **RAK-06** | JS Integration | 0% | Planned. |
+| **RAK-07** | Project Config | 0% | Planned. |
+| **RAK-08** | Evolutions | 0% | Planned. |
 
 ---
 
