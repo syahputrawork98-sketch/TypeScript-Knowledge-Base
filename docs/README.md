@@ -1,48 +1,35 @@
 # Dokumentasi & Standar: TypeScript Knowledge Base
 
-Selamat datang di pusat kontrol dokumentasi **TypeScript Knowledge Base**. Folder ini berisi panduan, standar, dan peta jalan (roadmap) untuk pengerjaan seluruh Rak di perpustakaan ini.
+Pusat dokumentasi ini menyimpan seluruh cetak biru, standar kualitas, dan panduan meta untuk membangun repository ini secara konsisten.
 
-## 🧭 Navigasi Dokumen
+## Daftar Dokumen Utama
 
-### 1. [Rencana Repositori (Unified Plan)](./repository-plan/README.md)
-Berisi detail dekomposisi untuk setiap Rak (Level 2) hingga ke level Bab (Level 5).
+### 1. Standar & Protokol
+- **[Architecture Standards](./standards/architecture.md)**: Analogi "Katedral Tipe" dan kriteria Gold Standard.
+- **[Naming Conventions](./standards/conventions.md)**: Aturan penamaan RAK, SR, BK, hingga Level Bab.
+- **[PPM Workflow](./standards/workflow.md)**: 4 Tahapan Penulisan Materi (PPM) V4.
+- **[Status Protocol](./standards/status-protocol.md)**: Cara melaporkan dan menghitung progress pengerjaan.
+- **[Contribution Guide](./standards/contribution.md)**: Panduan kontribusi dan aturan PR.
+- **[Core Contribution](./standards/core-contribution.md)**: Standar teknis kontribusi materi inti.
 
-### 2. Intisari & Filosofi
+### 2. Cetak Biru (Blueprints)
 - **[Repository Plan](./repository-plan/README.md)**: Dekomposisi total dari dokumentasi resmi ke dalam arsitektur 9-Rack.
+
+### 3. Narasi & Esensi
 - **[TypeScript Origins](./typescript-origins.md)**: Narasi mendalam tentang alasan Microsoft menciptakan TypeScript.
-- **[TypeScript History](./history.md)**: Jejak langkah evolusi fitur per versi.
-- **[TypeScript Philosophy](./philosophy.md)**: Membedah dasar-dasar pemikiran di balik desain bahasa.
+- **[TypeScript History](./typescript-history.md)**: Jejak langkah evolusi fitur per versi.
+- **[TypeScript Philosophy](./typescript-philosophy.md)**: Membedah dasar-dasar pemikiran di balik desain bahasa.
 - **[Why TypeScript?](./why-typescript.md)**: Rasionalitas teknis menggunakan TS di era modern.
 
-### 3. Panduan Struktur & Standar
-Untuk menjaga kualitas "Gold Standard", pastikan Anda mengikuti panduan berikut:
-- **[Arsitektur & Hierarki](./standards/architecture.md)**: Analogi Perpustakaan dan kewajiban setiap level.
-- **[Konvensi Penamaan](./standards/conventions.md)**: Aturan folderisasi (RAK-, SR-, BK-, CH-).
-- **[Prosedur Penulisan (PPM)](./standards/workflow.md)**: Tahapan Narasi -> Kode -> Visualisasi.
-- **[Protokol Status](./standards/status-protocol.md)**: Bagaimana progress "bubbling up" ke level atas.
+## Struktur Direktori `docs/`
 
----
-
-## 📊 Status Pengembangan Global
-
-| Rak | Judul | Progress | Keterangan |
-| :--- | :--- | :--- | :--- |
-| **RAK-01** | Get Started | 0% | Inisialisasi narasi awal. |
-| **RAK-02** | The Handbook | 0% | Planned. |
-| **RAK-03** | Reference | 0% | Planned. |
-| **RAK-04** | Modules | 0% | Planned. |
-| **RAK-05** | Declaration Files | 0% | Planned. |
-| **RAK-06** | JS Integration | 0% | Planned. |
-| **RAK-07** | Project Config | 0% | Planned. |
-| **RAK-08** | Tutorials | 0% | Planned. |
-| **RAK-09** | Evolution | 0% | Planned. |
-
----
-
-## 🛠 Aturan Kontribusi (Personal)
-- Setiap Bab **wajib** memiliki `README.md` (PPM Stage 1).
-- Setiap Buku **wajib** memiliki `docs/status.md` untuk sinkronisasi progress ke dokumen ini.
-- Diagram dan visualisasi sangat disarankan menggunakan Mermaid atau SVG untuk performa render yang ringan.
-
----
-*Kembali ke [Halaman Utama](../README.md)*
+```text
+/docs
+├── standards/             # Standar & Protokol (Architecture, Conventions, etc.)
+├── repository-plan/       # Cetak biru 9-Rack (Level 2)
+├── typescript-history.md  # Narasi Sejarah
+├── typescript-philosophy.md # Filosofi Bahasa
+├── typescript-origins.md  # Legenda Inisiasi
+├── why-typescript.md      # Rasionalitas Penggunaan
+└── README.md              # File ini (Hub navigasi)
+```
