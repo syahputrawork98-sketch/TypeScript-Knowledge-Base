@@ -32,7 +32,8 @@ Untuk menjaga kualitas "Gold Standard", pastikan Anda mengikuti panduan berikut:
 | **RAK-05** | Declaration Files | 0% | Planned. |
 | **RAK-06** | JS Integration | 0% | Planned. |
 | **RAK-07** | Project Config | 0% | Planned. |
-| **RAK-08** | Evolutions | 0% | Planned. |
+| **RAK-08** | Tutorials | 0% | Planned. |
+| **RAK-09** | Evolution | 0% | Planned. |
 
 ---
 

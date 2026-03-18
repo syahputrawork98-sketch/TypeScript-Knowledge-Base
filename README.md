@@ -50,7 +50,8 @@ graph TD
     RAK05["RAK-05-declaration-files<br/>(The Authoring)"]
     RAK06["RAK-06-js-integration<br/>(The Bridge)"]
     RAK07["RAK-07-project-config<br/>(The Engine)"]
-    RAK08["RAK-08-evolution<br/>(The Pulse)"]
+    RAK08["RAK-08-tutorials<br/>(The Practical)"]
+    RAK09["RAK-09-evolution<br/>(The Pulse)"]
     
     Root --> RAK01
     Root --> RAK02
@@ -60,6 +61,7 @@ graph TD
     Root --> RAK06
     Root --> RAK07
     Root --> RAK08
+    Root --> RAK09
     
     style Root fill:#3178C6,stroke:#333,stroke-width:4px,color:#fff
     style RAK01 fill:#bbf,stroke:#333
@@ -70,6 +72,7 @@ graph TD
     style RAK06 fill:#fbb,stroke:#333
     style RAK07 fill:#eee,stroke:#333
     style RAK08 fill:#eee,stroke:#333
+    style RAK09 fill:#eee,stroke:#333
 ```
 
 ---
@@ -78,14 +81,15 @@ graph TD
 
 | Rak | Deskripsi | Status |
 | :--- | :--- | :--- |
-| `RAK-01-get-started/` | Quickstarts, Tutorials, & Backgrounds | *Planned* |
-| `RAK-02-the-handbook/` | Foundations, Logic, & Type Manipulation | *Planned* |
-| `RAK-03-reference/` | Utility Types, Compatibility, & Syntax Ref | *Planned* |
-| `RAK-04-modules/` | Theory & Practical (ESM/CJS) | *Planned* |
-| `RAK-05-declaration-files/` | .d.ts Authoring & Publishing | *Planned* |
-| `RAK-06-js-integration/` | JSDoc & JS Type-Checking | *Planned* |
-| `RAK-07-project-config/` | tsconfig.json & Project References | *Planned* |
-| `RAK-08-evolution/` | Release Logs & Roadmap | *Planned* |
+| `RAK-01-get-started/` | Quickstarts & Backgrounds | *Planned* |
+| `RAK-02-the-handbook/` | Foundations & Logic | *Planned* |
+| `RAK-03-reference/` | Technical Deep Dives | *Planned* |
+| `RAK-04-modules/` | ESM/CJS & Resolution | *Planned* |
+| `RAK-05-declaration-files/` | .d.ts Authoring | *Planned* |
+| `RAK-06-js-integration/` | JSDoc & JS Workflow | *Planned* |
+| `RAK-07-project-config/` | tsconfig.json & Build | *Planned* |
+| `RAK-08-tutorials/` | Framework Specific Guides | *Planned* |
+| `RAK-09-evolution/` | Release Logs & Roadmap | *Planned* |
 
 ## Visi Aktif
 Repositori ini bertindak sebagai **"The Brain"** dalam *Master Plan: Polyglot Senior Architect*. Fokus materi murni pada **TypeScript Language & Ecosystem**.
