@@ -36,10 +36,12 @@ Sebuah unit dianggap **Completed** jika memenuhi 4 pilar kualitas:
 > Konten diverifikasi terhadap dokumentasi resmi/Handbook (Target di kolom Spec-Sync).
 >
 > **Pilar 2: Functional Examples**  
-> Minimal 1 contoh kode (`.ts`) di folder `examples/` yang membuktikan konsep.
+> Minimal 1 contoh kode (`.ts`) di folder `examples/`.  
+> *Catatan*: Jika materi bersifat teoretis/konseptual tanpa kode eksekusi, tetap buat file `.ts` dengan komentar: `"// Ini bukan kode, ini hanya materi [NamaBab]"`.
 >
 > **Pilar 3: Mental Model Visual**  
-> Minimal 1 diagram (Mermaid/SVG) di folder `assets/`.
+> Minimal 1 diagram (Mermaid/SVG) di folder `assets/`.  
+> *Catatan*: Jika materi benar-benar tidak memerlukan visualisasi, buat placeholder/catatan: `"Tidak memerlukan gambar/SVG narasi untuk [NamaBab]"`.
 >
 > **Pilar 4: Narrative Excellence**  
 > Penjelasan menggunakan standar PPM V4: Manusiawi, ada analogi, dan menggunakan **Bahasa Arsitek (Senior Terminology)**. Dokumentasi harus berfungsi sebagai jembatan yang memungkinkan pengembang awam berkomunikasi secara profesional dengan pengembang senior setelah mempelajari materi.
